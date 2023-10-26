@@ -14,6 +14,8 @@ uint8_t customPeriod_count = 0;
 String DateData = "", 
        TimeData = "";
 
+void RTC_Alarm_Update(void);
+void RTC_Alarm_Handler(void);
 void LoRa_Communication_Handler(void);
 void DateTime_StringHandler(void);
 void LoRa_outgoingMessage_Update(String *outgoingMessage);
@@ -60,7 +62,7 @@ void RTC_Alarm_Update(void) {
   RTC_Alarm_Flag = RTC_DS3231.alarm_status();
 }
 
-void RTC_Alarm_Handler() {
+void RTC_Alarm_Handler(void) {
   switch (RTC_Alarm_Flag) {
     case MINUTE_ALARM: {
       customPeriod_count += 1;

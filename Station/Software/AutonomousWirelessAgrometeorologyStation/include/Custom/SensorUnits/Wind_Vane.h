@@ -11,7 +11,7 @@
 #include "stm32f1xx_hal_conf_default.h"
 #endif
 
-#include <Sensor_Base.h>
+#include "Sensor_Base.h"
 
 /* Constants from datasheet */
 #define CALX_TEMP 25      // Reference temperature (25ºC)

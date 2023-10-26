@@ -34,19 +34,19 @@
  **********************/
 
 // Time handler
-#include <RTC.h>
+#include "Custom/RTC.h"
 
 // Sensor configuration and control
-#include <Sensor_Base.h>
+#include "Custom/SensorUnits/Sensor_Base.h"
 
-#include <Anemometer.h>
-#include <Wind_Vane.h>
-#include <Precipitation.h>
-#include <Thermometer_Hygrometer_Barometer.h>
+#include "Custom/SensorUnits/Anemometer.h"
+#include "Custom/SensorUnits/Wind_Vane.h"
+#include "Custom/SensorUnits/Precipitation.h"
+#include "Custom/SensorUnits/Thermometer_Hygrometer_Barometer.h"
 
-#include <Sensor_Control.h>
+#include "Custom/Sensor_Control.h"
 
 // Data exchange
-#include <SX1278_LoRa.h>
+#include "Custom/SX1278_LoRa.h"
 
 #endif

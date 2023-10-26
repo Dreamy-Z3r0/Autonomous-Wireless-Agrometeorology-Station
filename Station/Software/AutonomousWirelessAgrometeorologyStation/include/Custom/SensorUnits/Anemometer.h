@@ -1,7 +1,7 @@
 #ifndef _ANEMOMETER_H_
 #define _ANEMETER_H_
 
-#include <Sensor_Base.h>
+#include "Sensor_Base.h"
 
 
 /* Speed conversion methods */
