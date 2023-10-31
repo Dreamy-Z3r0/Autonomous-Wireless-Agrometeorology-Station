@@ -1,9 +1,6 @@
 #ifndef _WIND_VANE_H_
 #define _WIND_VANE_H_
 
-/* STM32F1xx specific HAL configuration options. */
-// #include "hal_conf_extra.h"
-
 #include "Sensor_Base.h"
 
 /* Constants from datasheet */
