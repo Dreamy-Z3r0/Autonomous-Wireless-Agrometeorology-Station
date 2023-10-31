@@ -2,7 +2,7 @@
 #define _PRECIPITATION_H_
 
 // #include <DS3231.h>
-#include "Sensor_Base.h"
+#include "../Sensor_Base/Sensor_Base.h"
 
 #define RainfallPerTip  0.2794  // mm
 

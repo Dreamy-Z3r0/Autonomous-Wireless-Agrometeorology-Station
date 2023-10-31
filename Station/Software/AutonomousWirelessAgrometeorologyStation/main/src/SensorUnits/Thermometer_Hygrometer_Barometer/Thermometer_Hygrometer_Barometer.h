@@ -6,7 +6,7 @@
  *****************/
 
 class Sensor_Base;
-#include "Sensor_Base.h"
+#include "../Sensor_Base/Sensor_Base.h"
 
 /* BME280 */
 #include <SPI.h>

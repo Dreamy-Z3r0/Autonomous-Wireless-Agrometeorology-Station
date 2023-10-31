@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-#include "Libraries.h"
-#include "Macros_and_Defines.h"
-#include "Class_Instances.h"
+#include "include/Libraries.h"
+#include "include/Macros_and_Defines.h"
+#include "include/Class_Instances.h"
 
 #define customPeriod 5  // minutes
 String LoRa_Message_Field_Separator = ",";
@@ -13,14 +13,6 @@ Alarm_Type RTC_Alarm_Flag = NO_ALARM;
 uint8_t customPeriod_count = 0;
 String DateData = "", 
        TimeData = "";
-
-void RTC_Alarm_Update(void);
-void RTC_Alarm_Handler(void);
-void LoRa_Communication_Handler(void);
-void DateTime_StringHandler(void);
-void LoRa_outgoingMessage_Update(String *outgoingMessage);
-void LoRa_Received_Signal_Update(bool *Rx_Msg_Status);
-void DateTime_InputHandler(String input);
 
 void setup() {
   Wire.begin();

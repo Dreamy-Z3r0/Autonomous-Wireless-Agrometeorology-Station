@@ -1,4 +1,4 @@
-#include "Custom/RTC.h"
+#include "RTC.h"
 
 DS3231_Control RTC_DS3231(PA15);  // <- PA15: Digital pin used as interrupt input for alarm from the RTC module
                                   // Note: Macro extension issue with STM32duino, thus PA15 explicitly as input parameter.

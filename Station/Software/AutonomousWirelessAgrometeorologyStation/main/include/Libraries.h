@@ -15,7 +15,7 @@
 // LoRa
 #include <LoRa.h>
 
-// Logger with an SD card
+// Logger with an SD card  <- deprecated
 // #include <SD.h>
 
 // Real-time clock DS3231
@@ -34,19 +34,19 @@
  **********************/
 
 // Time handler
-#include "Custom/RTC.h"
+#include "../src/RTC/RTC.h"
 
 // Sensor configuration and control
-#include "Custom/SensorUnits/Sensor_Base.h"
+#include "../src/SensorUnits/Sensor_Base/Sensor_Base.h"
 
-#include "Custom/SensorUnits/Anemometer.h"
-#include "Custom/SensorUnits/Wind_Vane.h"
-#include "Custom/SensorUnits/Precipitation.h"
-#include "Custom/SensorUnits/Thermometer_Hygrometer_Barometer.h"
+#include "../src/SensorUnits/Anemometer/Anemometer.h"
+#include "../src/SensorUnits/Wind_Vane/Wind_Vane.h"
+#include "../src/SensorUnits/Precipitation/Precipitation.h"
+#include "../src/SensorUnits/Thermometer_Hygrometer_Barometer/Thermometer_Hygrometer_Barometer.h"
 
-#include "Custom/Sensor_Control.h"
+#include "../src/Sensor_Control/Sensor_Control.h"
 
 // Data exchange
-#include "Custom/SX1278_LoRa.h"
+#include "../src/SX1278_LoRa/SX1278_LoRa.h"
 
 #endif

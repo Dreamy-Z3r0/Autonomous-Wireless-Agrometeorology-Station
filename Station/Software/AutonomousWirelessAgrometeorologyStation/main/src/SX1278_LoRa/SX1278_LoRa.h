@@ -5,8 +5,8 @@
 #include <SPI.h>
 #include <LoRa.h>
 
-#include "Libraries.h"
-#include "Macros_and_Defines.h"
+#include "../../include/Libraries.h"
+#include "../../include/Macros_and_Defines.h"
 
 
 typedef struct {    

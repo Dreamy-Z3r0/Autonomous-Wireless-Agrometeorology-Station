@@ -4,7 +4,7 @@
 #define CUSTOM_MINUTE_ALARM 5 // Check for alarm every CUSTOM_MINUTE_ALARM minutes
 
 #include <DS3231.h>
-#include "Macros_and_Defines.h"
+#include "../../include/Macros_and_Defines.h"
 
 enum DateTime_Control {
    day = 1,   month = 2,    year = 4, 

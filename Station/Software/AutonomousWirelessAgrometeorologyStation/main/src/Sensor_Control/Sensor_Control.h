@@ -3,8 +3,8 @@
 
 class BME280_Control;
 
-#include "Libraries.h"
-#include "Macros_and_Defines.h"
+#include "../../include/Libraries.h"
+#include "../../include/Macros_and_Defines.h"
 
 typedef struct {
     float Wind_Data[2];     // Wind_Data[0] -> wind speed; Wind_Data[1] -> wind direction

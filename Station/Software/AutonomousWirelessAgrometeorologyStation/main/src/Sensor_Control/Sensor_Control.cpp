@@ -1,4 +1,4 @@
-#include "Custom/Sensor_Control.h"
+#include "Sensor_Control.h"
 
 Sensor_Control::Sensor_Control(void) {
 
