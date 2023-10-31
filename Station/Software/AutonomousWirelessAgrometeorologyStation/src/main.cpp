@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#include "hal_conf_extra.h"
+
 #include "Libraries.h"
 #include "Macros_and_Defines.h"
 #include "Class_Instances.h"
